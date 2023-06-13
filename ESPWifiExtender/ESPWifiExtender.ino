@@ -6,8 +6,8 @@
 #define HAVE_NETDUMP 0
 
 #ifndef STASSID
-#define STASSID "TP-Link_C696"
-#define STAPSK "14997068"
+#define STASSID "ESPap"
+#define STAPSK "admin"
 #endif
 
 #include <ESP8266WiFi.h>
