@@ -2,8 +2,8 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid{ "SRAKA" };
-const char* pswd{ "olkuibat158" };
+const char* ssid{ "ESP8266_Access_Point" };
+const char* pswd{ "admin" };
 
 ESP8266WebServer server(80);
 
