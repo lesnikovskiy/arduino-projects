@@ -2,8 +2,8 @@ const byte RELAY_PIN{ 9 };
 const byte MOVEMENT_PIN{ 10 };
 const unsigned long THREE_MINUTES{ 1000 * 60 * 3 };
 
-unsigned long lastTimeRead = millis();
-unsigned long readDelay = 100;
+unsigned long lastTimeRead{ millis() };
+unsigned long readDelay{ 100 };
 
 void setup() {
   Serial.begin(9600);
