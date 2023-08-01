@@ -6,8 +6,8 @@
 #define HAVE_NETDUMP 0
 
 #ifndef STASSID
-#define STASSID "ESPap"
-#define STAPSK "admin"
+#define STASSID "MERCUSYS_7190"
+#define STAPSK ""
 #endif
 
 #include <ESP8266WiFi.h>
